@@ -1,0 +1,8 @@
+build:
+  build: tests
+  environment:
+    TEST_SCALEENGINE_API_SECRET:
+    TEST_SCALEENGINE_API_KEY:
+    TEST_SCALEENGINE_CDN:
+  volumes:
+    - .:/code

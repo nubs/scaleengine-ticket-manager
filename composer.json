@@ -1,0 +1,27 @@
+{
+    "name": "flosports/scaleengine-ticket-manager",
+    "description": "A ScaleEngine Ticket Manager.",
+    "keywords": ["ScaleEngine", "SEVU", "Ticket"],
+    "authors": [
+        {
+            "name": "Spencer Rinehart",
+            "email": "spencer.rinehart@flosports.tv",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "flosports/scaleengine-api-client": "^0.1.0",
+        "psr/cache": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2",
+        "satooshi/php-coveralls": "^1.0",
+        "squizlabs/php_codesniffer": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "FloSports\\ScaleEngine\\": "src"
+        }
+    }
+}
